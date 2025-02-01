@@ -1,9 +1,7 @@
-function RecWalk-Directories {
-  param (
-    Path
-  )
-  for
-}
+#
+#function RecWalk-Directories {
+#  param (Path)
+#}
 
 
 Write-Output (" /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\ ")
@@ -24,7 +22,7 @@ Write-Output (" > ^ <                                                           
 Write-Output (" /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\ ")
 Write-Output ("( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )")
 Write-Output (" > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ < ")
-# Example.ps1
+
 Write-Output ("Your files:")
 
 
