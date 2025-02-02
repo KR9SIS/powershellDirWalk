@@ -17,11 +17,3 @@ Write-Host (" /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_
 Write-Host ("( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )")
 Write-Host (" > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ < ")
 
-Write-Host ("`n`nYour files:")
-
-Get-ChildItem -Path C:\Users\$env:USERNAME -Name -Recurse -Force | ForEach-Object {
-    Write-Host -NoNewline "$($_)`r"
-    Start-Sleep -Milliseconds 25  # Optional delay to visualize the overwrite
-}
-
-
